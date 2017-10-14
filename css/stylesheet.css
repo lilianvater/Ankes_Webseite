@@ -95,11 +95,32 @@ h2{
 }
 
 .text{
-  margin-left: 350px;
+  margin-left: 330px;
   width: 35%;
   font-family: 'Raleway', Arial;
   font-size: 13pt;
   margin-top: 100px;
+}
+
+.textleben{
+  margin-left: 330px;
+  width: 45%;
+  font-family: 'Raleway', Arial;
+  font-size: 13pt;
+  margin-top: 100px;
+}
+
+.datum{
+  padding-right: 20px;
+}
+
+table{
+  font-family: 'Raleway', Arial, sans-serif;
+  font-size: 13pt;
+}
+td{
+  padding-bottom: 15px;
+  
 }
 /*  .hirsch{
     padding-top: 180px;
