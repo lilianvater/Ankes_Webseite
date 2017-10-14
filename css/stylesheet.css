@@ -45,7 +45,7 @@ html, body {
     padding: 20px;
     padding-top: 0;
     padding-bottom: 0;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Poiret One', Arial;
     font-size: 15pt;
   }
 
@@ -89,9 +89,17 @@ html, body {
 }
 
 h2{
-  font-family: 'Poiret One', cursive;
+  font-family: 'Poiret One', Arial;
   font-size: 20pt;
   text-align: center;
+}
+
+.text{
+  margin-left: 350px;
+  width: 35%;
+  font-family: 'Raleway', Arial;
+  font-size: 13pt;
+  margin-top: 100px;
 }
 /*  .hirsch{
     padding-top: 180px;
