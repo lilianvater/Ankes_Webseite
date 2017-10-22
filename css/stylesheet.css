@@ -96,10 +96,23 @@ h2{
 
 .text{
   margin-left: 330px;
+  float: left;
   width: 35%;
   font-family: 'Raleway', Arial;
   font-size: 13pt;
   margin-top: 100px;
+}
+
+.mitgliedslogo{
+  float: right;
+  margin-right: 330px;
+  width: 150px;
+  margin-top: 382px;
+}
+
+.minibild2{
+  width: 100px;
+  padding-top: 20px;
 }
 
 .textleben{
