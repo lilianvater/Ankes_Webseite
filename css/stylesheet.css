@@ -39,6 +39,9 @@ html, body {
   padding: 0;
   }
 
+ul{
+  padding-left: 0;
+}
   li{
     display: inline-block;
     list-style-type: none;
@@ -80,7 +83,6 @@ html, body {
 
 .content{
   margin-top: 400px;
-
   margin-left: auto;
   margin-right: auto;
   width: 100%;
@@ -105,7 +107,7 @@ h2{
 
 .mitgliedslogo{
   float: right;
-  margin-right: 330px;
+  margin-right: 21%;
   width: 150px;
   margin-top: 382px;
 }
@@ -122,20 +124,160 @@ h2{
   font-size: 13pt;
   margin-top: 100px;
 }
-
 .datum{
   padding-right: 20px;
   text-align: left;
 }
-
 table{
   font-family: 'Raleway', Arial, sans-serif;
   font-size: 13pt;
 }
 td{
   padding-bottom: 15px;
-
 }
+/* fürs tablet breit*/
+@media (max-width: 1110px) {
+li{
+  font-size: 13pt;
+}
+.mitgliedslogo{
+  width: 90px;
+  margin-right: 19%;
+  margin-top: 386px;
+}
+.minibild2{
+  width: 90px;
+  padding-top: 30px;
+}
+.text{
+  margin-left: 250px;
+  width:45%;
+}
+.textleben{
+  margin-left: 250px;
+  width:65%;
+}
+}
+/* fürs tablet */
+@media (max-width: 1000px) {
+li{
+  padding: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.logo{
+  width: 65%;
+}
+.text{
+  margin-left: 200px;
+}
+.textleben{
+  margin-left: 200px;
+}
+}
+/* fürs kleine tablet */
+@media (max-width: 880px) {
+li{
+  padding: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 15pt;
+}
+.logo{
+  width: 70%;
+}
+.text{
+  margin-left: 100px;
+}
+.textleben{
+  margin-left: 100px;
+  width: 75%;
+}
+}
+/* fürs Smatphone */
+@media (max-width: 650px) {
+.logo{
+  width: 97%;
+  }
+li{
+  display: block;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  font-size: 17pt;
+}
+.content{
+  margin-top: 600px;
+}
+.text{
+  margin-left: 50px;
+  width: 70%;
+}
+.mitgliedslogo{
+  width: 60px;
+  margin-right: 20px;
+  margin-top: 395px;
+}
+.minibild2{
+  width: 60px;
+  padding-top: 20px;
+}
+.textleben{
+  margin-left: 50px;
+  width: 80%;
+}
+}
+/*fürs schmale Smartphone*/
+@media (max-width: 476px) {
+  .logo{
+    margin-top: 50px;
+  }
+  .text{
+    margin-left: 30px;
+    font-size: 11pt;
+    width: 65%;
+  }
+  .mitgliedslogo{
+    margin-top: 352px;
+  }
+  .textleben{
+    margin-left: 30px;
+    font-size: 11pt;
+    width: 90%;
+  }
+  table{
+    font-size: 11pt;
+  }
+}
+/*fürs schmalere Smartphone*/
+@media (max-width: 376px) {
+  .hintergrund{
+    height: 200px;
+  }
+  nav{
+    margin-top: 200px;
+  }
+  .logo{
+    margin-top: 20px;
+  }
+  .text{
+    margin-left: 20px;
+    font-size: 9.5pt;
+  }
+  .mitgliedslogo{
+    margin-top: 300px;
+  }
+  .textleben{
+    margin-left: 20px;
+    font-size: 9.5pt;
+  }
+  table{
+    font-size: 9.5pt;
+  }
+  .content{
+    margin-top: 500px;
+  }
+}
+
 /*  .hirsch{
     padding-top: 180px;
     display: block;
