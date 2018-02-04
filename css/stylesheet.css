@@ -95,7 +95,11 @@ h2{
   font-size: 20pt;
   text-align: center;
 }
-
+h4{
+  font-family: 'Raleway', Arial;
+  font-size: 13pt;
+  text-align: center;
+}
 .text{
   margin-left: 330px;
   float: left;
@@ -135,6 +139,30 @@ table{
 td{
   padding-bottom: 15px;
 }
+figcaption {
+  text-align: center;
+  font-size: 10pt;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  background: rgb(173, 65, 7);
+  padding: 15px;
+  margin-top: 0;
+}
+figure{
+  margin-left: 0;
+  margin-right: 0;
+}
+.projektuebersicht{
+  margin-top: 70px;
+  display:inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+}
+.einzelprojekt{
+  width: 228px;
+}
 /* fürs tablet breit*/
 @media (max-width: 1110px) {
 .mitgliedslogo{
@@ -157,9 +185,9 @@ td{
 }
 /* fürs tablet */
 @media (max-width: 1000px) {
-  li{
-    font-size: 13pt;
-  }
+.li{
+  font-size: 13pt;
+}
 .logo{
   width: 65%;
 }
@@ -172,7 +200,7 @@ td{
 }
 /* fürs kleine tablet */
 @media (max-width: 880px) {
-li{
+.li{
   padding: 13px;
   padding-top: 0;
   padding-bottom: 0;
@@ -193,7 +221,7 @@ li{
 .logo{
   width: 97%;
   }
-li{
+.li{
   display: block;
   padding-bottom: 7px;
   padding-top: 7px;
