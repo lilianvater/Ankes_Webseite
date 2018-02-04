@@ -137,9 +137,6 @@ td{
 }
 /* fürs tablet breit*/
 @media (max-width: 1110px) {
-li{
-  font-size: 13pt;
-}
 .mitgliedslogo{
   width: 90px;
   margin-right: 19%;
@@ -160,11 +157,9 @@ li{
 }
 /* fürs tablet */
 @media (max-width: 1000px) {
-li{
-  padding: 10px;
-  padding-top: 0;
-  padding-bottom: 0;
-}
+  li{
+    font-size: 13pt;
+  }
 .logo{
   width: 65%;
 }
@@ -178,10 +173,9 @@ li{
 /* fürs kleine tablet */
 @media (max-width: 880px) {
 li{
-  padding: 20px;
+  padding: 13px;
   padding-top: 0;
   padding-bottom: 0;
-  font-size: 15pt;
 }
 .logo{
   width: 70%;
