@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Anke Hirsch</title>
+    <link href="css/stylesheet.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  </head>
+  <body>
+    <div class="hintergrund">
+         <img class="hintergrund" src="images/textur_papier.jpg" width="100%" alt="hintergrund">
+    </div>
+
+    <header>
+
+      <figure class="logo">
+        <img src="images/logo_hirsch.png" width="100%" alt="Anke_Hirsch">
+      </figure>
+    </header>
+    <nav>
+      <ul>
+        <li class="li"><a href="projekte.html">PROJEKTE</a></li>
+        <li class="li"><a href="leistungen.html">LEISTUNGEN</a></li>
+        <li class="li"><a href="partner.html">PARTNER</a></li>
+        <li class="li"><a href="lehrtaetigkeit.html">LEHRTÄTIGKEIT</a></li>
+        <li class="li"><a href="zurperson.html">ZUR PERSON</a></li>
+        <li class="li"><a href="kontakt.html">KONTAKT</a></li>
+      </ul>
+    </nav>
+
+        <div class="content">
+          <h2>TREPPENHAUS GOETHESTRASSE</h2>
+          <h4>Berlin</h4>
+
+          <div class="slideshow-container">
+               <div class="mySlides fade">
+                 <img src="images/goethestrasse/goethe1.jpg" style="width:100%">
+               </div>
+
+               <div class="mySlides fade">
+                 <img src="images/goethestrasse/goethe2.jpg" style="width:100%">
+               </div>
+
+               <div class="mySlides fade">
+                 <img src="images/goethestrasse/goethe3.jpg" style="width:100%">
+               </div>
+
+               <div class="hoch mySlides fade">
+                 <img src="images/goethestrasse/goethe4.jpg" style="width:100%">
+               </div>
+
+               <div class="mySlides fade">
+                 <img src="images/goethestrasse/goethe5.JPG" style="width:100%">
+               </div>
+
+               <div class="mySlides fade">
+                 <img src="images/goethestrasse/goethe6.JPG" style="width:100%">
+               </div>
+
+               <div class="hoch mySlides fade">
+                 <img src="images/goethestrasse/goethe7.JPG" style="width:100%">
+               </div>
+
+               <div class="hoch mySlides fade">
+                 <img src="images/goethestrasse/goethe8.JPG" style="width:100%">
+               </div>
+
+               <div class="hoch mySlides fade">
+                 <img src="images/goethestrasse/goethe9.JPG" style="width:100%">
+               </div>
+
+                   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                   <a class="next" onclick="plusSlides(1)">&#10095;</a>
+         </div>
+         <br>
+
+         <!-- <div style="text-align:center">
+           <span class="dot" onclick="currentSlide(1)"></span>
+           <span class="dot" onclick="currentSlide(2)"></span>
+           <span class="dot" onclick="currentSlide(3)"></span>
+         </div> -->
+
+         <div class="objekttext">
+           <p><b>Bearbeitungszeitraum:  2015-2017</b><br><b>Auftraggeber:      Lenz Werk Holding GmbH</b><br></p>
+           <p><br>Restauratorische Untersuchung der Farbigkeit an der Fassade und den Innenräumen<br>Restauratorische Baubegleitung und Beratung<br>Restaurierung der Weinstube: Malschichtfestigung, Putzfestigung, Salzreduktion, Putzergänzung/Kittungen und Retusche<br>Neufassung und Restaurierung/Ergänzung des Stucks im Innenbereich mit Warmleimfarbe und ergänzender Bronzierung nach Befund<br>Freilegung und Fassung durch lasierende minaralische Anstriche der dekorativen Teile der Fassade<br></p>
+         </div>
+
+        </div>
+
+        <!--  <div class="hirsch">
+            <img class="hirsch" src="images/hirsch.png" width="100%" alt="Hirsch">
+          </div> -->
+          <script>
+                 var slideIndex = 1;
+                 showSlides(slideIndex);
+
+                 function plusSlides(n) {
+                   showSlides(slideIndex += n);
+                 }
+
+                 function currentSlide(n) {
+                   showSlides(slideIndex = n);
+                 }
+
+                 function showSlides(n) {
+                   var i;
+                   var slides = document.getElementsByClassName("mySlides");
+                   var dots = document.getElementsByClassName("dot");
+                   if (n > slides.length) {slideIndex = 1}
+                   if (n < 1) {slideIndex = slides.length}
+                   for (i = 0; i < slides.length; i++) {
+                       slides[i].style.display = "none";
+                   }
+                   for (i = 0; i < dots.length; i++) {
+                       dots[i].className = dots[i].className.replace(" active", "");
+                   }
+                   slides[slideIndex-1].style.display = "block";
+                   dots[slideIndex-1].className += " active";
+                 }
+            </script>
+  </body>
+</html>
