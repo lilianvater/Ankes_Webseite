@@ -94,6 +94,16 @@ ul{
   position: absolute;
   z-index: 1;
 }
+.datenschutz{
+  clear: both;
+  margin-top: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  font-family: 'Raleway', Arial;
+  font-size: 10pt;
+  margin-bottom: 200px;
+}
 h2{
   font-family: 'Poiret One', Arial;
   font-size: 20pt;
@@ -141,6 +151,7 @@ h4{
   margin-right: 21%;
   width: 150px;
   margin-top: 382px;
+  margin-bottom: 300px;
 }
 .minibild2{
   width: 100px;
@@ -187,11 +198,29 @@ figcaption {
   padding: 15px;
   margin-top: 0;
 }
+.partneruebersicht figcaption {
+  text-align: left;
+  font-size: 10pt;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  background: white;
+  padding: 0;
+  padding-top: 15px;
+  margin-top: 0;
+}
 figure{
   margin-left: 0;
   margin-right: 0;
 }
 .projektuebersicht{
+  margin-top: 70px;
+  display:inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+}
+.partneruebersicht{
   margin-top: 70px;
   display:inline-block;
   margin-left: auto;
@@ -267,6 +296,9 @@ figure{
 .text{
   margin-left: 100px;
 }
+.datenschutz{
+  width: 80%;
+}
 }
 /* fürs Smatphone */
 @media (max-width: 650px) {
@@ -312,7 +344,9 @@ figure{
     font-size: 11pt;
     width: 65%;
   }
-
+.datenschutz{
+  font-size: 8pt;
+}
   .mitgliedslogo{
     margin-top: 352px;
   }
