@@ -38,7 +38,16 @@ html, body {
   margin-bottom: 0;
   padding: 0;
   }
-
+  .start{
+    height: 55%;
+    width: 100%;
+    margin: 0;
+    margin-top: 310px;
+    background: url(../images/start.jpg) 50% 50% no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: 2;
+    }
 ul{
   padding-left: 0;
 }
@@ -57,7 +66,7 @@ ul{
     margin-top: 300px;
     padding: 0;
     position: absolute;
-    z-index: 1;
+    z-index: 3;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -96,7 +105,7 @@ ul{
 }
 .datenschutz{
   clear: both;
-  margin-top: 400px;
+  margin-top: 270px;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
@@ -122,6 +131,12 @@ h4{
   text-align: center;
   margin-bottom: 70px;
 }
+h5{
+  font-family: 'Raleway', Arial;
+  font-size: 14pt;
+  text-align: center;
+  margin-top: 70px;
+}
 .text{
   margin-left: 330px;
   float: left;
@@ -138,6 +153,15 @@ h4{
   font-size: 13pt;
   margin-top: 100px;
 }
+.leistungtext{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  font-family: 'Raleway', Arial;
+  font-size: 12pt;
+  margin-top: 100px;
+  text-align: center;
+}
 .objekttext{
   margin-left: 18%;
   float: left;
@@ -151,7 +175,7 @@ h4{
   margin-right: 21%;
   width: 150px;
   margin-top: 382px;
-  margin-bottom: 300px;
+  margin-bottom: 50px;
 }
 .minibild2{
   width: 100px;
@@ -230,6 +254,9 @@ figure{
 }
 .einzelprojekt{
   width: 228px;
+}
+.einzelprojekt1{
+  width: 300px;
 }
 /* fürs tablet breit*/
 @media (max-width: 1110px) {
@@ -452,7 +479,7 @@ figure{
   margin: auto;
 }
 .slideshow-container1 {
-  max-width: 550px;
+  max-width: 450px;
   position: relative;
   margin: auto;
 }
@@ -473,6 +500,11 @@ figure{
 }
 .slideshow-container5 {
   max-width: 400px;
+  position: relative;
+  margin: auto;
+}
+.slideshow-container6 {
+  max-width: 390px;
   position: relative;
   margin: auto;
 }
